@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="https://picsum.photos/800/200" alt="image de présentation">
+        <h1 class="title">Bienvenue sur notre galerie !</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Accueil</a></li>
+                <li><a href="/blog.html">Blog</a></li>
+                <li><a href="/galerie.html">Galerie</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header><br>
+
+    <section id="carousel">
+        <h1 style="text-align: center;">Source :</h1>
+        <p style="text-align: center;"><a href="https://codepen.io/SitePoint/pen/MyPVdK">CARROUSEL D'IMAGES</a></p>
+        <div class="carousel">
+            <div class="carousel-inner">
+                <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/2000/500?random=1">
+                </div>
+                <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/2000/500?random=2">
+                </div>
+                <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/2000/500?random=3">
+                </div>
+                <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+                <label for="carousel-2" class="carousel-control next control-1">›</label>
+                <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+                <label for="carousel-3" class="carousel-control next control-2">›</label>
+                <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+                <label for="carousel-1" class="carousel-control next control-3">›</label>
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <section id="image">
+        <h1 class="title">BANQUE D'IMAGES</h1>
+        <article style="display: flex;flex-wrap: wrap;">
+            <div>
+                <img src="https://picsum.photos/800/300" alt="image">
+            </div>
+            <div>
+                <img src="https://picsum.photos/500/300" alt="image">
+            </div>
+            <div>
+                <img src="https://picsum.photos/400/300" alt="image">
+            </div>
+            <div>
+                <img src="https://picsum.photos/200/300" alt="image">
+            </div>
+            <div>
+                <img src="https://picsum.photos/700/300" alt="image">
+            </div>
+            <div>
+                <img src="https://picsum.photos/900/200" alt="image">
+            </div>
+            <div>
+                <img src="https://picsum.photos/40/40" alt="image">
+            </div>
+            <div>
+                <img src="https://picsum.photos/80/80" alt="image">
+            </div>
+            <div>
+                <img src="https://picsum.photos/120/450" alt="image">
+            </div>
+            <div>
+                <img src="https://picsum.photos/500/800" alt="image">
+            </div>
+        </article>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="https://google.com">GOOGLE</a></li>
+            <li><a href="https://google.com">GOOGLE</a></li>
+            <li><a href="https://google.com">GOOGLE</a></li>
+            <li><a href="https://google.com">GOOGLE</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
